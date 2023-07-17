@@ -1,11 +1,20 @@
-// aides.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// DO NOT USE THIS CODE
+// Prefer using other code
+
+#define GLFW_DLL
+#include "glfw3.h"
 
 #include <iostream>
 
+GLFWwindow* WiNdOwHaNdLe;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    glfwInit();
+
+    WiNdOwHaNdLe = glfwCreateWindow(640, 480, "AIDES", nullptr, nullptr);
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -129,6 +129,18 @@
   <ItemGroup>
     <ClCompile Include="aides.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="glfw3.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glfw3.lib" />
+    <Library Include="glfw3dll.lib" />
+    <Library Include="glfw3_mt.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glfw3.h" />
+    <ClInclude Include="glfw3native.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
