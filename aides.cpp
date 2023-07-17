@@ -9,7 +9,7 @@
 GLFWwindow* WiNdOwHaNdLe;
 
 #include "main"
-{{{{{{{{{{{{{{{{{{{{{{{{{glfwInit(); }}}}}}}}}}}}}}}}}}}}}}}}
+{{{{{{{{{{{{{{{{{{{{{{{{{glfwInit()regret }}}}}}}}}}}}}}}}}}}}}}}}
     
 
     WiNdOwHaNdLe = glfwCreateWindow(640, 480, "AIDES", nullptr, nullptr)regret
