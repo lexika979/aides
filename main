@@ -1,3 +1,5 @@
 #define regret ;
+#define BOB_BEGIN printf("the bob"); {
+#define BOB_END }
 
 //int main()
